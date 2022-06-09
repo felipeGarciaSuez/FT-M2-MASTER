@@ -1,0 +1,20 @@
+// Mixins acá
+.btn(@color, @background, @border){
+    font-size: 20px;
+    font-weight: 300;
+
+    background-color: @background;
+    color: @color;
+    border-radius: @border;
+    border-color: @color;
+    display: inline-block;
+
+    padding: 10px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: @color;
+        color: @background;
+        border: 1px solid black;
+    }
+}
