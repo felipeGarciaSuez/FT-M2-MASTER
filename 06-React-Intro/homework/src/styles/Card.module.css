@@ -1,0 +1,31 @@
+.btn{
+    background-color: red;
+    width: 25px;
+    margin: 5px;
+    align-self: flex-start;
+}
+.btnColor{
+    color: white;
+}
+.btn:hover{
+    color: red;
+    background-color: white;
+}
+.middleDiv{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    align-content: center;
+    width: 400px;
+    height: 200px;
+    margin: 50px;
+}
+
+.temperature{
+    margin: 5px;
+    margin-left: 20px;
+}

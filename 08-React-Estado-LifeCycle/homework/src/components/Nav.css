@@ -1,3 +1,9 @@
 #logoHenry {
   margin-right: 20px;
 }
+.navClass{
+  background: #353A40;
+  display: flex;
+  color: white;
+  padding: 10px;
+}

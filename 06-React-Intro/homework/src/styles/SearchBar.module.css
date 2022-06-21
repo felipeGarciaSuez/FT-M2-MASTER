@@ -1,0 +1,12 @@
+.container{
+    background-color: #343A40;
+    padding: 20px;
+}
+.input{
+    border-radius: 5px;
+    margin: 4px;
+}
+.btnInput{
+    color: green;
+    border: 1px solid green;
+}
